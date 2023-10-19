@@ -8,17 +8,18 @@ const NavBar = () => {
                 <div className=" d-flex border-2 border rounded-2 align-items-center ">
                     <input
                         type="text"
-                        className="border-0 px-2 py-1 focus-ring rounded-2 "
+                        className="border-0 px-2 py-1 rounded-2 "
+                        id="input"
                     />
                     <button className=" border-0 p-0 m-0 bg-white ">
-                    <i className='bi bi-search px-2 text-black fs-5 icon-link-hover'></i>
+                        <i className='bi bi-search px-2 text-black fs-5 icon-link-hover'></i>
                     </button>
                 </div>
-                <div className=" text-black d-flex  flex-row gap-4 ">
+                <div className=" text-black d-flex  flex-row align-items-center  gap-4 ">
                     <Link to={"/"}>
                         <i className='bi bi-bell text-black fs-5  icon-link-hover '></i>
                     </Link><Link to={"/"}>
-                        <i className=' bi bi-person-circle text-black  fs-5  icon-link-hover '></i>
+                        <i className=' bi bi-person-circle text-black fs-2  icon-link-hover '></i>
                     </Link>
                 </div>
             </nav>
