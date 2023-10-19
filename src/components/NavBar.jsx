@@ -14,11 +14,11 @@ const NavBar = () => {
                     <i className='bi bi-search px-2 text-black fs-5 icon-link-hover'></i>
                     </button>
                 </div>
-                <div className=" text-black ">
+                <div className=" text-black d-flex  flex-row gap-4 ">
                     <Link to={"/"}>
-                        <i className='bi bi-bell text-black fs-5 me-4 icon-link-hover '></i>
+                        <i className='bi bi-bell text-black fs-5  icon-link-hover '></i>
                     </Link><Link to={"/"}>
-                        <i className=' bi bi-person-circle text-black fs-5 me-4 icon-link-hover '></i>
+                        <i className=' bi bi-person-circle text-black  fs-5  icon-link-hover '></i>
                     </Link>
                 </div>
             </nav>
