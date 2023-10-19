@@ -6,16 +6,16 @@ export default function Sidebar() {
   return (
     <div id='sidebar' className='d-flex justify-content-between flex-column text-white py-3 ps-3 p-3 vh-100'>
         <div>
-            <a id='link' href="" className='p-3'>
+            <a id='link' href="" className='p-3 d-flex flex-row '>
                 <i className='bi bi-code-slash fs-4 me-4'></i>
-                <span className='fs-3'>User Management</span>
+                <span className=''>User Management</span>
             </a>
             <hr className='text-white mt-2'/>
             <ul className='nav nav-pills flex-column mt-2'>
               <li className='nav-item p-2'>
                 <a id='link' href="" className='p-1'>
                   <i className='bi bi-speedometer2 me-3 fs-4'></i>
-                  <span className='fs-4'><strong>Dashboard</strong></span>
+                  <span><strong>Dashboard</strong></span>
                 </a>
               </li>
               <li className='nav-item p-2'>
