@@ -1,11 +1,14 @@
-#link{
-    text-decoration: none;
-    color: white;
-}
 
-#sidebar{
+
+/* #sidebar{
     background-color: rgb(145, 40, 40);
 }
-#input{
-    outline: none;
+
+#sidebar outerlist list:hover {
+    background-color: rgb(145, 40, 40);
 }
+
+#sidebar outerlist list:hover link{
+    color: rgb(255, 255, 255);
+} */
+
